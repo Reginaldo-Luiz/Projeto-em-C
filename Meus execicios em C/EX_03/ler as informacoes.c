@@ -4,12 +4,34 @@
 */
 
 int main(){
+
     int idade;
+    float altura;
+    char nome[30];
+    
     printf("Digite a sua idade:");
     scanf("%d", &idade);
     printf("Sua idade é: %d\n", idade);
+
+    printf("Digite a sua altura:");
+    scanf("%f", &altura);
+    printf("A sua altura é: %.2f\n", altura);
+
+    printf("Digite o seu nome:");
+    scanf("%s", &nome);
+    printf("O seu nome é: %s", nome);
+
     return 0;
+
+
+
+
+    
     /*
+        sintaxe scanf.
+
+        scanf("formato1" "formato2", &variavel1, variavel2, ...);
+
         %d: Imprime um inteiro no formato decimal.
 
         %i: Equivalente a %d.
